@@ -1,0 +1,57 @@
+point
+100 100 0 A 150 150 255
+
+point
+350 175 0 B 150 150 255
+
+point
+200 400 0 C 150 150 255
+
+segment
+through A B c 255 255 0
+
+segment
+through B C a 255 255 0
+
+segment
+through C A b 255 255 0
+
+point
+on a 0.25 D 255 255 0
+
+point
+on b 0.35 E 255 255 0
+
+point
+on c 0.65 F 255 255 0
+
+circumcircle
+A E F p 255 255 255
+
+circumcircle
+B F D q 255 255 255
+
+circumcircle
+C D E r 255 255 255
+
+frames
+40
+
+vary
+D 0.25 0.75 2 18
+
+vary
+E 0.35 0.6 5 15
+
+vary
+E 0.6 0.35 20 30
+
+vary
+D 0.75 0.25 20 38
+
+vary
+F 0.65 0.2 10 20
+
+vary
+F 0.2 0.65 21 31
+

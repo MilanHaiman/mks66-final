@@ -1,0 +1,32 @@
+circle
+center_x center_y center_z radius name colorR colorG colorB
+
+circumcircle
+pointnameA pointnameB pointnameC name colorR colorG colorB
+
+point
+on objectname location name colorR colorG colorB
+
+point
+x y z name colorR colorG colorB
+
+intersection
+linenameA linenameB name colorR colorG colorB
+
+line
+through pointnameA pointnameB name colorR colorG colorB
+
+line
+x1 y1 x2 y2 name colorR colorG colorB
+
+segment
+through pointnameA pointnameB name colorR colorG colorB
+
+segment
+x1 y1 x2 y2 name colorR colorG colorB
+
+frames
+numframes
+
+vary
+pointname startlocation endlocation startframe endframe
